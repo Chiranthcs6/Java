@@ -6,7 +6,7 @@ class MyThread extends Thread{
     }
     public void run(){
         try{
-            for(int i=5;i>0;i--){
+            for(int i=100;i>0;i--){
                 System.out.println("Child Thread"+i);
                 Thread.sleep(500);
             } 
