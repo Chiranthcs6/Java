@@ -12,4 +12,3 @@ class B extends A{
         obj.display();
     }
 }
-    
