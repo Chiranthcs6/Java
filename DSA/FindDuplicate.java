@@ -3,7 +3,7 @@ public class FindDuplicate {
   public static void findduplicate(int[] arr){
     HashSet<Integer>seen= new HashSet<>();
     HashSet<Integer> duplicate= new HashSet<>();
-
+     
     for(int num:arr){
       if(!seen.add(num)){
         duplicate.add(num);

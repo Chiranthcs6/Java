@@ -17,6 +17,7 @@ class shape {
     void erase(float side, Boolean a){
         System.out.println("Draw the square with sides"+side);
     }
+}
     class Circle extends shape{
         float radius;
         Circle(float radius){
@@ -54,7 +55,7 @@ class shape {
             super.erase(side,true);
         }
     }
-    class test{
+    public class test{
         public static void main(String[] args) {
             Circle c1= new Circle(5);
             Triangle t1= new Triangle(6, 7);
@@ -69,4 +70,3 @@ class shape {
             
         }
     }
-}
