@@ -29,6 +29,6 @@ public class search_rotation_array {
   public static void main(String[] args) {
       int[] arr={3,5,6,8,9,1,8};
       int key=8;
-      System.out.println("Index vale"+find(arr, key));
+      System.out.println("Index value" +find(arr, key));
   }
 }
